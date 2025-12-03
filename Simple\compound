@@ -1,0 +1,9 @@
+P=float(input("enter P")
+R=float(input("enter R")
+T=float(input("enter T")
+SI=P*R*T/100;
+A=P*(1+R/100)**T
+  CI=A-P
+print("Simple Interest",SI)
+print("Compound Interest",CI)
+print("total",A)
