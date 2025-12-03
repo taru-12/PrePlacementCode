@@ -1,0 +1,8 @@
+print("1.enter celsius")
+print("2.enter f")
+
+print("enter ur choice")
+
+if choice==1:
+C=int(input("enter f"))
+F=C*9/5+32
